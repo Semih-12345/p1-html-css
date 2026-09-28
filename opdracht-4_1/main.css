@@ -1,0 +1,26 @@
+h2{
+    color: #9000ff;
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.first{
+    color: #0d0303;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+a{
+    color: #7272dd;
+    text-decoration: none;
+    
+}
+
+
+body {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
