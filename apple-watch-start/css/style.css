@@ -2,33 +2,37 @@
 
 html {
   background-color: #f5f5f5;
-  font-family: HelloHiFont;
+  font-family: 'HelloHiFont', serif ;
 }
 
 
 /* Custom Font */
 @font-face {
-  font-family: HelloHiFont;
-  src: url(/fonts/ftltlt-webfont.woff);
+  font-family: HelloHiFont ;
+  src: url(fonts/ftltlt-webfont.woff);
 }
 
 @font-face {
-  font-family: HelloHiFont2;
-  src: url(/fonts/ftltlt-webfont2.woff);
+  font-family: HelloHiFont2 ;
+  src: url(fonts/ftltlt-webfont2.woff);
 }
 
 
 
 body {
   margin: 0;
-  font-family: HelloHiFont, sans-serif;
+  font-family: 'HelloHiFont' , serif;
  color: #111;
+ background-image: url(
+    file:///C:/Users/semih/Documents/GitHub/p1-html-css/apple-watch-start/img/watch.png
+  );
+ background-size: 30%;
+ background-repeat: no-repeat;
+ background-position-x: 1100px;
+ background-position-y: 300px;
 }
 
-img {
-  background-image: url(file:///C:/Users/semih/Documents/GitHub/p1-html-css/apple-watch-start/img/watch.png);
-  position:
-}
+
 
 /* Navigatie */
 .navbar {
@@ -100,6 +104,7 @@ align-content: center;
   background: #f5f5f5;
   background-color: #fff;
   margin-top: 170px;
+  border-radius: 1px 1px 170px 
 
 }
 .product-info h2 {
