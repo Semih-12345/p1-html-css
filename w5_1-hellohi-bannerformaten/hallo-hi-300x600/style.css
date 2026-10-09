@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.stage {  
+    position: relative;
+    cursor: pointer;
+    
+    -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;    
+   overflow: hidden;    
+}
+
+.bannerSize{ 
+width: 300px; 
+height: 600px; 
+background-color: black;
+}
+
+.box{
+    width: 100px;
+    height: 10px;
+}
+
+.box1,.box2,.box3{
+    position: absolute;
+    width: 20px;
+    height: 5px;
+    left: 15px;
+    top: 15px;
+}
+
+.box1{
+    background-color: #9000ff;
+}
+
+.box2{
+    background-color: #5559ff;
+    left: 40px;
+}
+
+.box3{
+    background-color: #b0b0eb;
+    left: 65px;
+}
+
+.titleText{
+    font-size: 250%;
+color: white;
+position:absolute;
+left: 15px;
+top: 30px;
+}
+
+.Hi{
+position:absolute;
+left: 125px;
+width: 50px;
+height: 50px;
+}
+
+.Simonly{
+    color: white;
+    position:absolute;
+    left: 15px;
+    top: 100px;
+}
+
+.subtext{
+    color: white;
+    position:absolute;
+    left:15px;
+    top: 70px;
+}
+
+.lijst{
+color: white;
+position:absolute;
+top: 290px;
+left: 15px;
+}
+
+.cirkel{
+    position:absolute;
+    width: 450px;
+    height: 450px;
+background-color: #7272dd;
+border-radius: 100%;
+right: -80px;
+bottom: -240px;
+}
+
+.simkaart{
+    position:absolute;
+    width:100px;
+    height: 155px;
+    right: 15px;
+    top: -150px;
+    rotate: 90deg;
+}
+
+.purplebutton{
+    font-size: 130%;
+    position: absolute;
+    border-radius: 10px;
+    padding: 2%;
+border-color: white;
+    color: white;
+background-color: #7272dd;
+right: 40px;
+bottom: 35px;
+padding: 9%;
+width: 220px;
+}
+
