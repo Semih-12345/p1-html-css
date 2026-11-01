@@ -192,6 +192,7 @@ nav ul li {
 
 .dropdown-menu {
   display: none;
+  flex-direction: column;
   position: absolute;
     top: 100%;
     left: 40px;
@@ -200,7 +201,7 @@ nav ul li {
 }
 
 .dropdown-menu a {
-  display: block;
+  display: flex;
   padding: 12px;
   text-decoration: none;
   border-bottom-right-radius: 75px;
@@ -212,7 +213,7 @@ nav ul li {
 }
 
 .dropdown:hover .dropdown-menu {
-  display: block;
+  display: flex;
 }
 nav a{
   background-color: #7272dd;
