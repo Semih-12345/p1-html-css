@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.eersteregel {
+  display: flex;
+  background-color: rgb(126, 126, 186);
+  color: black;
+  min-height: 100px;
+}
+.tweederegel {
+  background-color: cyan;
+  min-height: 225px;
+
+}
+.vierderegel {
+  background-color: darkblue;
+  min-height: 225px;
+
+}
+.derderegel {
+  background-color: rgb(198, 98, 198);
+  min-height: 380px;
+
+}
+@media (min-width: 768px){
+   .eersteregel {
+  background-color: rgb(186, 126, 138);
+}
+.tweederegel{
+  background-color: rgb(49, 68, 68);
+
+}
+.vierderegel {
+  background-color: rgb(171, 171, 237);
+  
+}
+.derderegel {
+  background-color: rgb(23, 19, 23);
+  
+
+}
+
+    
+}
+@media (min-width: 1280px){
+   .eersteregel {
+  background-color: rgb(203, 0, 41);
+}
+.tweederegel {
+  background-color: rgb(242, 249, 43);
+
+}
+.vierderegel {
+  background-color: rgb(171, 134, 32);
+  
+}
+.derderegel {
+  background-color: rgb(19, 165, 41);
+  
+
+}
+
+    
+}
