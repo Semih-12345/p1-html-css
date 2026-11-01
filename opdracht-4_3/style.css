@@ -1,0 +1,67 @@
+.balkje{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #7272dd;
+}
+
+body{
+     font-family: "Playfair Display", serif;
+     margin: 0;
+     color: white;
+     background-color: black;
+}
+
+
+.balkje li{
+  display: block;
+  padding: 18px 90px;
+  text-decoration: none;
+  color: white;
+  font-size: 140%;
+}
+
+
+
+.box{
+    width: 100px;
+    height: 10px;
+}
+
+.box1,.box2,.box3{
+    position:absolute;
+    width: 20px;
+    height: 10px;
+    left: 65px;
+    top: 220px;
+}
+
+.box1{
+    background-color: #9000ff;
+}
+
+.box2{
+    background-color: #5559ff;
+    left: 90px;
+}
+
+.box3{
+    background-color: #b0b0eb;
+    left: 115px;
+}
+
+.hiimg{
+position:relative;
+left:400px;
+top: 90px;
+height: 100px;
+width: 100px;
+}
+
+.hallohigroot{
+font-size:500%;
+position: relative;
+top: 10px;
+left: 80px;
+}
