@@ -1,24 +1,187 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
 }
 
-.navbar{
+body {
+    background-color: white;
+}
+
+
+
+.navbar {
     width: 100%;
-    height: 75px;
-    background-color:rgb(241, 241, 241);
-    box-shadow:0px 0px 0.6px 0px;
+    height: 81px;
+    background-color: rgb(241, 241, 241);
+    border-bottom: 1px solid #e5e5e5;
 }
 
-.google{
-    margin: 17px 0 0;
-    
-    padding: 0px 0px 0px 45px;
+.google {
+    margin: 17px 0 0 50px;
+    width: 125px;
+    height: 36px;
 }
 
 
-.gmailtoevoegen{
-    margin: ;
-padding: 0px 0px 0px 305px;
+
+.gmailtoevoegen {
+    padding: 25px 0 0 19.1%;
+    color: #e53935;
+    font-size: 23px;
+}
+
+
+
+.paragraaf {
+    padding: 20px 0 0 19.1%;
+    font-size: 14px;
+    line-height: 20px;
+    color: #202124;
+    max-width: 960px;
+}
+
+.paragraaf a {
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+.paragraaf a:hover {
+    text-decoration: underline;
+}
+
+
+
+.container {
+    position: absolute;
+    top: 156px;
+    left: 57.5%;
+    width: 415px;
+    height: 406px;
+    background-color: #f1f1f1;
+    border: 1px solid #e1e1e1;
+    padding: 26px 29px;
+}
+
+
+
+.helenaam {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.naamvelden {
+    display: flex;
+    gap: 10px;
+}
+
+.naamvelden input {
+    width: 50%;
+    height: 34px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+
+
+.gmailtekst {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 22px;
+    margin-bottom: 6px;
+}
+
+.gmailveld {
+    position: relative;
+}
+
+.gmailveld input {
+    width: 100%;
+    height: 34px;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.gmailveld span {
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    color: #888;
+    font-size: 14px;
+}
+
+
+
+.telefoon {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 22px;
+    margin-bottom: 6px;
+}
+
+.telefoonveld {
+    width: 100%;
+    height: 35px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+
+
+.huidigemail {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 22px;
+    margin-bottom: 6px;
+}
+
+.emailveld {
+    width: 100%;
+    height: 34px;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-top: 23px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 9px 12px;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 39px;
+    border-top: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-left: 50px;
+    font-size: 12px;
+}
+
+footer span {
+    color: #888;
+}
+
+footer a {
+    color: #202124;
+    text-decoration: none;
 }
